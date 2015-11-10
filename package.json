@@ -1,0 +1,27 @@
+{
+  "name": "lego-server",
+  "version": "0.1.0",
+  "description": "a koa-based server-side MVC framework",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wwsun/lego-server.git"
+  },
+  "author": "Weiwei SUN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wwsun/lego-server/issues"
+  },
+  "homepage": "https://github.com/wwsun/lego-server#readme",
+  "dependencies": {
+    "co-views": "^2.1.0",
+    "koa": "^1.1.2",
+    "koa-logger": "^1.3.0",
+    "koa-route": "^2.4.2",
+    "koa-static": "^1.5.2",
+    "swig": "^1.4.2"
+  }
+}
